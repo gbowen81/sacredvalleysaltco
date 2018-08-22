@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 200 130">
+    <g stroke="none" transform="translate(0 30)">
+        <g stroke-opacity="1" stroke-width=".265" stroke-linecap="butt" stroke-linejoin="miter">
+            <path d="M199.72 9.046l-1.195 9.45c-4.105 2.21-10.33 2.513-10.33 2.513h-70.358l1.212-8.325h67.703s5.368-.052 12.968-3.638zM134.2 53.798h-21.243l4.53-30.11h30.747s-2.233 17.224-14.034 30.11zM197.8 20.945l-1.148 9.25c-7.655 1.914-10.143 1.723-10.143 1.723h-37.446c1.276-4.593 1.978-8.23 1.978-8.23h34.193s5.805-.127 12.567-2.743zM181.204 42.854h-36.899c3.158-5.593 3.79-8.3 3.79-8.3h36.266zM166.228 45.29h-23.411c-2.526 4.691-5.82 8.435-5.82 8.435h25.622zM.364 9.046l1.195 9.45c4.105 2.21 10.33 2.513 10.33 2.513h70.358l-1.212-8.325H13.332S7.964 12.632.364 9.046zM65.884 53.798h21.243l-4.53-30.11H51.85s2.233 17.224 14.034 30.11zM2.283 20.945l1.149 9.25c7.655 1.914 10.143 1.723 10.143 1.723H51.02c-1.276-4.593-1.978-8.23-1.978-8.23H14.85s-5.805-.127-12.567-2.743zM18.88 42.854H55.78c-3.158-5.593-3.79-8.3-3.79-8.3H15.724zM33.856 45.29h23.411c2.526 4.691 5.82 8.435 5.82 8.435H37.464zM90.086 56.251h19.802l3.473 16.6H86.567zM116.474 12.677H83.726l6.044 41.048h20.66zM103.528 10.286h12.923V4.264zM91.958 6.768s-2.932.474-2.662 3.428c0 0 .587-1.15 4.06-.992 0 0 1.376 2.21 5.3.473 0 0 1.128-.699 4.962-1.443 0 0 3.676-1.466 1.692-5.368 0 0-1.602-3.293-5.797-1.443 0 0-1.714-2.684-5.819.676 0 0-3.766 2.459-1.736 4.669z"/>
+        </g>
+        <flowRoot fill-opacity="1" xml:space="preserve" font-style="normal" font-weight="400" style="line-height:1.25" font-family="sans-serif" letter-spacing="0" word-spacing="0" transform="scale(.26458)" font-size="40">
+            <flowRegion>
+                <path d="M151.429 61.524h414.286v62.143H151.429z"/>
+            </flowRegion>
+            <flowPara/>
+        </flowRoot>
+        <path id="a" fill="none" stroke-opacity="1" stroke-width=".265" d="M6.147 8.327s95.415-32.34 187.89 0" stroke-linecap="butt" stroke-linejoin="miter"/>
+        <text y="-6.414" fill-opacity="1" stroke-width=".265" font-style="normal" font-variant="normal" font-weight="400" transform="translate(1.336 -4.276)" font-size="15.875" font-family="Narkisim" letter-spacing="0" word-spacing="0" style="line-height:1.25;-inkscape-font-specification:Narkisim" xml:space="preserve" font-stretch="normal">
+            <textPath font-stretch="normal" style="-inkscape-font-specification:'Narkisim, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start" font-style="normal" font-variant="normal" font-weight="400" xlink:href="#a" font-size="21.872" font-family="Narkisim" letter-spacing="2.381" writing-mode="lr-tb" text-anchor="start">SACRED VALLEY</textPath>
+        </text>
+        <text x="55.859" y="93.586" fill-opacity="1" stroke-width=".265" font-variant="normal" font-weight="400" font-style="normal" font-size="15.875" font-family="Narkisim" letter-spacing="0" word-spacing="0" xml:space="preserve" style="line-height:1.25;-inkscape-font-specification:Narkisim" font-stretch="normal">
+            <tspan x="55.859" y="93.586" stroke-width=".265" font-size="21.872">SALT CO.</tspan>
+        </text>
+    </g>
+</svg>
