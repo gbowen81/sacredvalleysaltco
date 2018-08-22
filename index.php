@@ -148,7 +148,7 @@
 	<div class="layout-grid home-grid">
 		<a id="fair-trade" href="#">
 			<h2>100% Responsible</h2>
-			<img src="assets/images/better-than-fair-trade.svg"/>
+			<img src="assets/images/better-than-fair-trade-notext.svg"/>
 			<h3>How so? Find out.</h3>
 		</a>
 
