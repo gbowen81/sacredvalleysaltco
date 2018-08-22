@@ -10,7 +10,7 @@
 
 <div class="testimonial-outermost">
 	<div class="testimonial-outer">
-		<div id="marquee" class="testimonial-section paused">
+		<div id="marquee" class="testimonial-section">
 			<?php include 'svsinc/testimonial-cloud.php'; ?>
 		</div>
 	</div>

@@ -40,7 +40,7 @@ quoteLength();
 //Turn off marquee animation when not in the middle of the screen//	
 window.addEventListener("scroll", abovePause);
 var position
-// var marquee = document.getElementById("marquee");
+
 function abovePause() {
 	if (window.pageYOffset < 300) {
 		document.getElementById("marquee").className = "testimonial-section paused";
