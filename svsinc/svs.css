@@ -18,6 +18,7 @@
 /*Styling*/
 html {
 	padding: 0;
+	font-family: 'Lato', 'Arial', sans-serif;
 }
 * {
 	box-sizing: border-box;
@@ -26,7 +27,6 @@ html {
 body {
 	background-color: #ddd4b5;
 	margin: 0;
-	font-family: 'Lato', 'Arial', sans-serif;
 }
 
 body p {
@@ -1512,7 +1512,8 @@ li.menuleft.dropdown {
 .layout-grid.home-grid a {
 	border-style: solid;
 	border-width: 5px;
-	border-color: rgba(13,82,77,1);
+	/*border-color: rgba(13,82,77,1);*/
+	border-color: #fff;
 }
 
 #fair-trade {
@@ -1522,6 +1523,7 @@ li.menuleft.dropdown {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
+	background-color: #bbaf85;
 }
 
 #fair-trade img {
@@ -1635,7 +1637,7 @@ li.menuleft.dropdown {
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-
+	background-color: #bbaf85;
 }
 
 #no-hype img {
@@ -1652,7 +1654,7 @@ li.menuleft.dropdown {
 #condor {
 	grid-row: span 2;
 	grid-column: span 1;
-	background-image: url(../assets/images/condor-vertical-400x800.jpg);
+	background-image: url("../assets/images/condor-vertical-400x800.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	display: flex;
@@ -1671,6 +1673,7 @@ li.menuleft.dropdown {
 #partners {
 	grid-row: span 1;
 	grid-column: span 1;
+	background-color: #bbaf85;
 }
 
 #partners > div {
@@ -1699,7 +1702,132 @@ li.menuleft.dropdown {
 	background-color: rgba(255,255,255,1);
 	color: #6c2617;
 	font-size: 1em;
+}
 
+#people {
+	grid-row: span 3;
+	grid-column: span 2;
+	background-color: #bbaf85;
+}
+
+#people h2, #people h3 {
+	color: rgba(13,82,77,1);
+	font-family: 'Balthazar', 'Helvetica', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+#people > div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	max-width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#people > div > div:first-child {
+	grid-row: span 1;
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#people .portrait {
+	grid-row: span 1;
+	grid-column: span 1;
+
+}
+
+#people img {
+	max-width: 90%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#home-blog {
+	grid-row: span 2;
+	grid-column: span 2;
+}
+
+#blog-slider {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+#blog-slider h2 {
+	position: absolute;
+	top: 2%;
+	width: 100%;
+	text-align: center;
+	z-index: 1;
+}
+
+#blog-slider h2 span {
+	color: rgba(13,82,77,1);
+	background-color: #bbaf85;
+	padding: 10px 30px;
+	border-radius: 30px;
+	font-family: 'Balthazar', 'Helvetica', sans-serif;
+	font-size: 1.5em;
+}
+
+#blog-slider > div {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#blog-slider > div:nth-of-type(1) {
+	background-image: url("../assets/images/salt-structure-300x300.png");
+}
+
+#blog-slider > div:nth-of-type(2) {
+	background-image: url("../assets/images/woman-with-llamas-300x300.jpg");
+}
+
+#blog-slider > div:nth-of-type(3) {
+	background-image: url("../assets/images/salt-traders-300x300.jpg");
+}
+
+#blog-slider > div:nth-of-type(4) {
+	background-image: url("../assets/images/dos-ninos-300x300.jpg");
+}
+
+#blog-slider > div:nth-of-type(5) {
+	background-image: url("../assets/images/battle-of-maule-300x300.jpg");
+}
+
+#blog-slider > div:nth-of-type(6) {
+	background-image: url("../assets/images/simplest-recipe-300x300.jpg");
+}
+
+.blogslide {
+	display: none;
+	height: 100%;
+	position: relative;
+}
+
+.blogslide.turn {
+	display: block;
+}
+
+.blogslide h3 {
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	text-align: center;
+}
+
+.blogslide h3 span {
+	padding: 10px 15px;
+	color: rgba(13,82,77,1);
+	background-color: #bbaf85;
+	text-align: center;
+	border-radius: 20px;
+	font-weight: 300;
 }
 
 /*Media Queries*/
@@ -1794,6 +1922,9 @@ li.menuleft.dropdown {
 	}
 	#fair-trade h2, #fair-trade h3 {
 		font-size: 200%;
+	}
+	.layout-grid {
+		grid-gap: 40px;
 	}
 
 }

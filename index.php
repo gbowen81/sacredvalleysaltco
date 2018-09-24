@@ -168,6 +168,19 @@
 			</div>
 			<p>From here...</p>
 		</a>
+		<a id="people" href="#">
+			<div>
+				<div>
+				<h2>The People</h2>
+				<h3>Who is involved and how are they affected?</h3>
+				</div>
+			
+				<div class="portrait"><img src="../assets/images/leonardo-portrait-200x200.jpg"/></div>
+				<div class="portrait"><img src="../assets/images/elsa-portrait-200x200.jpg"/></div>
+				<div class="portrait"><img src="../assets/images/juan-cesar-portrait-200x200.jpg"/></div>
+				<div class="portrait"><img src="../assets/images/senora-luzmarina-portrait-200x200.jpg"/></div>				
+			</div>
+		</a>
 		<a id="condor" href="#">
 			<h2>Andean</h2>
 			<h2>Condor</h2>
@@ -179,7 +192,30 @@
 					<h3>Partners</h3>
 				</div>
 			</div>
-		</a>	
+		</a>
+		<a id="home-blog" href="#">
+			<div id="blog-slider">
+				<h2><span>Blog</span></h2>
+				<div class="blogslide">
+					<h3><span>Salt Itself</span></h3>
+				</div>
+				<div class="blogslide turn">
+					<h3><span>The Sacred Valley</span></h3>
+				</div>
+				<div class="blogslide">
+					<h3><span>Salt History</span></h3>
+				</div>
+				<div class="blogslide">
+					<h3><span>Local Living</span></h3>
+				</div>
+				<div class="blogslide">
+					<h3><span>Sacred Valley History</span></h3>
+				</div>
+				<div class="blogslide">
+					<h3><span>Salt Uses & Recipes</span></h3>
+				</div>
+			</div>			
+		</a>
 	</div>
 </div>
 <script src="js/homepage.js"></script>
