@@ -35,7 +35,7 @@ slideIndicators.onclick = function() {
 	pauseScroll = false;
 }
 
-//when pauseSlideShow function is called, set playing to falce and clear interval timer
+//when pauseSlideShow function is called, set playing to false and clear interval timer
 function pauseSlideShow() {
 	playing = false;
 	clearInterval(slideInterval);
@@ -138,3 +138,19 @@ function goToProduct(n) {
 	currentThumb = (n+thumbSelect.length)%thumbSelect.length;
 	thumbSelect[currentThumb].className = 'highlighted';	
 }
+
+//__________________________ Blog Slider __________________________________//
+var blogSlides = document.querySelectorAll('.blogslide');
+var currentBlogSlide = 0;
+var blogSlideInterval = setInterval(slideAdvance, 4000);
+
+function slideAdvance() {
+	goToBlog(currentBlogSlide+1);
+}
+
+function goToBlog(n) {
+	blogSlides[currentBlogSlide].className = 'blogslide';
+	currentBlogSlide = (n+blogSlides.length)%blogSlides.length;
+	blogSlides[currentBlogSlide].className = 'blogslide turn';
+}
+

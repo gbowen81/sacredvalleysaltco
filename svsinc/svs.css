@@ -1516,6 +1516,11 @@ li.menuleft.dropdown {
 	border-color: #fff;
 }
 
+.layout-grid.home-grid a:hover {
+	border-width: 10px;
+	border-color: #ad6253;
+}
+
 #fair-trade {
 	grid-row: span 3;
 	grid-column: span 3;
@@ -1759,19 +1764,20 @@ li.menuleft.dropdown {
 
 #blog-slider h2 {
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	width: 100%;
 	text-align: center;
+	margin: 0;
 	z-index: 1;
 }
 
 #blog-slider h2 span {
 	color: rgba(13,82,77,1);
 	background-color: #bbaf85;
-	padding: 10px 30px;
-	border-radius: 30px;
+	padding: .15em .4em;
+	border-radius: .65em;
 	font-family: 'Balthazar', 'Helvetica', sans-serif;
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 #blog-slider > div {
@@ -1817,17 +1823,20 @@ li.menuleft.dropdown {
 .blogslide h3 {
 	width: 100%;
 	position: absolute;
-	bottom: 5%;
+	bottom: 3%;
 	text-align: center;
+	margin: 0;
 }
 
 .blogslide h3 span {
-	padding: 10px 15px;
+	padding: .15em .4em;
 	color: rgba(13,82,77,1);
 	background-color: #bbaf85;
 	text-align: center;
-	border-radius: 20px;
+	border-radius: .7em;
+	font-size: .8em;
 	font-weight: 300;
+	white-space: nowrap;
 }
 
 /*Media Queries*/
@@ -1906,6 +1915,7 @@ li.menuleft.dropdown {
 		padding: 0px 27px;
 		border-radius: 27px;
 	}
+
 }
 
 @media (min-width: 992px) {
@@ -1926,7 +1936,22 @@ li.menuleft.dropdown {
 	.layout-grid {
 		grid-gap: 40px;
 	}
-
+	.blogslide h3 {
+		bottom: 5%;
+	}
+	.blogslide h3 span {
+		padding: .5em .8em;
+		border-radius: 1.5em;
+		font-size: 1.1em;
+	}
+	#blog-slider h2 {
+		top: 5%;
+	}
+	#blog-slider h2 span {
+		padding: .3em .8em;
+		border-radius: .9em;
+		font-size: 1.2em;
+	}
 }
 
 @media (min-width: 1200px) {
