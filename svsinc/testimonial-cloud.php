@@ -1,4 +1,4 @@
-<div class="testimonial-wrapper bg-cloth">
+<div class="testimonial-wrapper bg-red">
 
 <div class="testimonial-cloud">
 
@@ -402,7 +402,7 @@
 </div>
 </div>
 
-<div class="testimonial-wrapper bg-cloth">
+<div class="testimonial-wrapper bg-red">
 
 <div class="testimonial-cloud">
 

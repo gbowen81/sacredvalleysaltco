@@ -38,6 +38,7 @@ function quoteLength() {
 quoteLength();
 
 //Turn off marquee animation when not in the middle of the screen//	
+/*
 window.addEventListener("scroll", abovePause);
 var position
 
@@ -52,3 +53,4 @@ function abovePause() {
 		document.getElementById("marquee").className = "testimonial-section paused";
 	}
 }
+*/
