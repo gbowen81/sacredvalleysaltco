@@ -94,6 +94,7 @@
 </div>
 
 <div class="layout-container bg-salineras">
+<div class="overlay"></div>	
 	<div class="layout-grid home-grid">
 		<a id="fair-trade" class="grid-col-2" href="#">
 			<h2 class="centered">100% Responsible</h2>
