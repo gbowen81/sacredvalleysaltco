@@ -20,7 +20,7 @@ function primaryActive() {
   
 primaryActive();
 
-/*mbo
+/*mobile menu*/
 /* Open */
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
@@ -30,3 +30,4 @@ function openNav() {
 function closeNav() {
     document.getElementById("myNav").style.width = "0%";
 }
+

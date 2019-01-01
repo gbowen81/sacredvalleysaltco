@@ -95,6 +95,8 @@ xxl: 1600;
 .layout-row > div {
 	padding: 20px;
 }
+
+
 .center-hor {
 	display: flex;
 	justify-content: center;
@@ -192,6 +194,30 @@ xxl: 1600;
 	grid-gap: 20px;
 	grid-auto-rows: 150px;
 	grid-auto-flow: dense;
+}
+
+.grid-col-1 {
+	grid-column: span 1;
+}
+
+.grid-col-2 {
+	grid-column: span 2;
+}
+
+.grid-col-3 {
+	grid-column: span 3;
+}
+
+.grid-col-4 {
+	grid-column: span 4;
+}
+
+.grid-col-5 {
+	grid-column: span 5;
+}
+
+.grid-col-6 {
+	grid-column: span 6;
 }
 
 @media all and (max-width: 1599px){
@@ -390,6 +416,9 @@ xxl: 1600;
 	grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
 	grid-auto-rows: 75px;
 	}
+	.grid-col-1, .grid-col-2, .grid-col-3, .grid-col-4, .grid-col-5, .grid-col-6 {
+		grid-column: 1 / -1;
+	}
 
 }
 
@@ -450,6 +479,8 @@ xxl: 1600;
 	background-size: cover;
 }
 
+
+
 /*Typography______________________________________________*/
 
 .mention {
@@ -501,7 +532,6 @@ xxl: 1600;
 
 .testimonial-cloud {
 	height: 360px;
-	margin-bottom: 10px;
 	display: grid;
 	grid-auto-columns: 100px;
 	grid-gap: 30px;
@@ -656,7 +686,6 @@ xxl: 1600;
 .testimonial-blurb {
 	align-items: center;
 	justify-content: center;
-	position: absolute;
 	display: inline-flex;
 	max-width: 80%;
 	padding: 2% 5%;
@@ -674,19 +703,14 @@ xxl: 1600;
 
 #product-container {
 	position: absolute;
-	padding-left: 30px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	width: 100%;
 	background-image: linear-gradient(to right, rgba(173,98,83,1), rgba(173,98,83,0));
 	display: block;
 	margin-right: auto;
+	padding-left: 20px;
 	top: 0;
-}
-
-#statement {
-	height: 400px;
-	position: relative;
 }
 
 /*Header Menu*/
@@ -1416,9 +1440,19 @@ li.menuleft.dropdown {
 	position: absolute;
 }
 
+#slider-product-info span {
+	background-color: rgba(108,38,23,.6);
+	padding: 4px 10px;
+	border-radius: 12px;
+	font-size: .8em;
+	white-space: nowrap;
+
+}
+
 #slider-product-info > div.info-center {
 	left: 0;
 	display: block;
+	padding-right: 20px;
 	animation: slidein .7s ease-in;
 	-ms-animation: slidein .7s ease-in;
 	-webkit-animation: slidein .7s ease-in;
@@ -1555,12 +1589,13 @@ li.menuleft.dropdown {
 	margin-right: 20px;
 }
 
-#features svg:hover {
+/*#features svg:hover {
 	width: 55px;
 	min-width: 55px;
 	height: 55px;
 	fill: #ddd4b5;
 }
+*/
 
 #features a {
 	display: flex;
@@ -1614,21 +1649,29 @@ li.menuleft.dropdown {
 	100% { stroke-width: 10px; }
 }
 
+#video-container {
+	width: 100vw;
+	height: 56.25vw;
+	max-width: 1000px;
+	max-height: 563px;
+}
+
 .layout-grid.home-grid a, .layout-grid.home-grid > div {
 	border-style: solid;
 	border-width: 5px;
+	margin: 5px;
 	/*border-color: rgba(13,82,77,1);*/
 	border-color: #fff;
 }
 
 .layout-grid.home-grid a:hover {
 	border-width: 10px;
+	margin: 0px;
 	border-color: #6c2617;
 }
 
 #fair-trade {
 	grid-row: span 3;
-	grid-column: span 2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1650,7 +1693,6 @@ li.menuleft.dropdown {
 
 #journey {
 	grid-row: span 2;
-	grid-column: span 3;
 	background-image: url("../assets/images/sacred-valley-journey-600x400.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1719,7 +1761,6 @@ li.menuleft.dropdown {
 
 #good-salt {
 	grid-row: span 2;
-	grid-column: span 2;
 	background-image: url("../assets/images/salt-bowl-bg-300x300.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1742,7 +1783,6 @@ li.menuleft.dropdown {
 
 #no-hype {
 	grid-row: span 2;
-	grid-column: span 2;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -1763,7 +1803,6 @@ li.menuleft.dropdown {
 
 #condor {
 	grid-row: span 2;
-	grid-column: span 1;
 	background-image: url("../assets/images/condor-vertical-400x800.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1782,7 +1821,6 @@ li.menuleft.dropdown {
 
 #partners {
 	grid-row: span 1;
-	grid-column: span 2;
 	background-color: #ddd4b5;
 }
 
@@ -1816,7 +1854,6 @@ li.menuleft.dropdown {
 
 #people {
 	grid-row: span 3;
-	grid-column: span 2;
 	background-color: #ddd4b5;
 }
 
@@ -1858,7 +1895,6 @@ li.menuleft.dropdown {
 
 #home-blog {
 	grid-row: span 2;
-	grid-column: span 2;
 }
 
 #photo-blog-slider, #blog-slider {
@@ -1944,7 +1980,6 @@ li.menuleft.dropdown {
 	white-space: nowrap;
 }
 #home-photo-blog {
-	grid-column: span 2;
 	grid-row: span 2;
 
 }
@@ -2012,6 +2047,16 @@ li.menuleft.dropdown {
 
 }
 
+/*Hovering_______________________________________________*/
+
+.bg-red .hover-effect:hover {
+	color: #ddd4b5;	
+}
+
+.bg-red .hover-effect:hover svg {
+	fill: #ddd4b5;
+}
+
 /*Media Queries*/
 
 @media (max-width: 575px) {
@@ -2020,6 +2065,7 @@ li.menuleft.dropdown {
 		content: "  \25CF";
 	}
 }
+
 
 @media (min-width: 576px) {
 	.iconmenu {
@@ -2053,6 +2099,11 @@ li.menuleft.dropdown {
 	min-width: 200px;
 }
 
+	#slider-product-info span {
+	font-size: inherit;
+
+}
+
 }
 
 @media (min-width: 768px) {
@@ -2067,7 +2118,8 @@ li.menuleft.dropdown {
 	}
 
 	.testimonial-cloud {
-		height: 520px;
+		height: 540px;
+		padding-bottom: 20px;
 		grid-template-rows: repeat(auto-fit, minmax(70px, 1fr));
 		font-size: 12px;
 	}
@@ -2176,11 +2228,11 @@ li.menuleft.dropdown {
 @media (min-width: 1600px) {
 
 	.testimonial-outermost {
-		height: 520px;
+		height: 540px;
 	}
 
 	.testimonial-cloud {
-		height: 500px;
+		height: 540px;
 		grid-template-rows: repeat(auto-fit, minmax(90px, 1fr));
 		font-size: 14px;
 

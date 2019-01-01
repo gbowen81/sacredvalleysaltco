@@ -40,32 +40,32 @@
 			<div id="slider-product-info">
 				<div class="info-center">
 					<a href="#">
-					<h3>Fine-Grain Finishing Salt, 8oz Pouch</h3>
-					<h3>$11.99</h3>
+					<h3 class="centered"><span>Fine-Grain Finishing Salt, 8oz Pouch</span></h3>
+					<h3 class="centered"><span>$11.99</span></h3>
 					</a>
 				</div>
 				<div>
 					<a href="#">
-					<h3>Extra-Coarse Grinder Salt, 8oz Pouch</h3>
-					<h3>$11.99</h3>
+					<h3 class="centered"><span>Extra-Coarse Grinder Salt, 8oz Pouch</span></h3>
+					<h3 class="centered"><span>$11.99</span></h3>
 					</a>
 				</div>
 				<div>
 					<a href="#">
-					<h3>Finishing Salt and Grinder Salt Gift Pack</h3>
-					<h3>$22.99</h3>
+					<h3 class="centered"><span>Finishing Salt and Grinder Salt Gift Pack</span></h3>
+					<h3 class="centered"><span>$22.99</span></h3>
 					</a>
 				</div>
 				<div>
 					<a href="#">
-					<h3>Fine-Grain Finishing Salt, 4lb Bulk Bag</h3>
-					<h3>$45.99</h3>
+					<h3 class="centered"><span>Fine-Grain Finishing Salt, 4lb Bulk Bag</span></h3>
+					<h3 class="centered"><span>$45.99</span></h3>
 					</a>
 				</div>
 				<div>
 					<a href="#">
-					<h3>Extra-Coarse Grinder Salt, 4lb Bulk Bag</h3>
-					<h3>$45.99</h3>
+					<h3 class="centered"><span>Extra-Coarse Grinder Salt, 4lb Bulk Bag</span></h3>
+					<h3 class="centered"><span>$45.99</span></h3>
 					</a>
 				</div>
 			</div>
